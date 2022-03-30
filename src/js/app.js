@@ -25,12 +25,10 @@ export default class app {
     return {
       onNoteAdd: () => {
         this._setActiveNotes({
-          id: `${new Date().getTime()}`.substring(0, 10),
           title: "",
           body: "",
           date: new Date(),
         });
-        this.activeNote = `${new Date().getTime()}`.substring(0, 10);
         this._refreshNotes();
       },
       onNoteEdit: (title, body) => {

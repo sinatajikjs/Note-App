@@ -14,7 +14,7 @@ export default class NotesApi {
       existed.date = new Date().toISOString();
     } else {
       notes.push({
-        id: `${new Date().getTime()}`.substring(0, 10),
+        id: `${new Date().getTime()}`,
         title: noteToSave.title,
         body: noteToSave.body,
         date: new Date().toISOString(),

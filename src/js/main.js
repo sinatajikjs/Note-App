@@ -1,3 +1,3 @@
 import app from "./app.js";
-import "../css/style.css";
+// import "../css/style.css";
 new app(document.getElementById("app"));

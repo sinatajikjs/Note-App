@@ -41,8 +41,6 @@ export default class NotesView {
     this.homeSection = this.doc.querySelector("section.home");
 
     addBtn.addEventListener("click", () => {
-      inputTitle.value = "";
-      inputBody.value = "";
       this.onNoteAdd();
       this.editOpen();
     });
