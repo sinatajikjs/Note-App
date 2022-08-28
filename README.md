@@ -10,5 +10,3 @@
 #### Attractive UI
 
 #### Responsive to all devices
-
-Checkout the application from http://sinatjs.ir/notes/
